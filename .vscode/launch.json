@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - autociv",
+        "order": 0
+      },
+      "projectName": "autociv",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@W:\\civ1337\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@W:\\civ1337\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dautociv%%W:\\civ1337\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - autociv",
+        "order": 1
+      },
+      "projectName": "autociv",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@W:\\civ1337\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@W:\\civ1337\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dautociv%%W:\\civ1337\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - autociv",
+        "order": 2
+      },
+      "projectName": "autociv",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@W:\\civ1337\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@W:\\civ1337\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dautociv%%W:\\civ1337\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

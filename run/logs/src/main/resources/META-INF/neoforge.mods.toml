@@ -1,0 +1,19 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "autociv"
+version = "0.1.0"
+displayName = "Autonomous Civilizations"
+authors = "AutoCiv Team"
+description = '''
+Independent NPC civilizations that build, trade, war and grow without the player.
+Stage 1: foundation - world simulation data model + persistence + /civ commands.
+'''
+
+# NeoForge 21.1 expects dependencies as a [dependencies] table
+# (the legacy [[dependencies.modid]] array-of-tables form is Forge-era format).
+[dependencies]
+minecraft = "[1.21,1.22)"
+neoforge = "[21.1.0,)"
