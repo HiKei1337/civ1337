@@ -1,0 +1,50 @@
+/civ list
+/civ
+/civ list
+/civ create
+/civ list
+/civ create rome
+/civ list
+/civ city addcitizen rome rome rome 10
+/civ simulate fast
+/civ create rome 5
+/civ create rome
+/civ tp Rome
+/civ info rome
+/civ debug
+/civ list
+/civ simulate debug
+/civ list
+/civ simulate fast
+/civ info rome
+/civ city create rome riga
+/civ tp rome riga
+/civ gui
+/gamerule randomTickSpeed 2000
+/civ debug build
+/civ gui
+/civ list
+/civ simulate fast
+/civ debug build maruya
+/civ list
+/gamerule randomTickSpeed 6000
+/civ info maruya
+/civ list
+/civ simulate debug
+/civ gui
+/gamerule randomTickSpeed 2000
+/civ gui
+/civ simulate fast
+/civ gui
+/civ
+/civ gui
+/gamemode survival
+/civ gui
+/reload
+/civ gui
+/civ territory maruya
+/civ
+/civ gui
+/civ admin city ed584fa5-c940-4f8a-b640-ebeed7c104cb
+/civ tp Maya outpost Aksum
+/civ tp Maya
